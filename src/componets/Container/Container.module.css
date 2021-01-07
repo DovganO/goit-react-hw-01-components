@@ -1,0 +1,11 @@
+.container {
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: rgba(226, 233, 202, 0.911);
+}

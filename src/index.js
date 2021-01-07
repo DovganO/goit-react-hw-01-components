@@ -1,27 +1,17 @@
-/* import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
-
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
- */
-
 import React from 'react';
 import ReactDOM from 'react-dom';
 import 'modern-normalize/modern-normalize.css';
 import './index.css';
 import App from './App';
+
+ReactDOM.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+  document.getElementById('root'),
+);
+
+/* ReactDOM.render(<App />, document.querySelector('#root')); */
 
 /* const user = users; */
 
@@ -57,8 +47,8 @@ import App from './App';
   );
 } */
 
-{
-  /* <User
+/* {
+  <User
     avatar={user.avatar}
     name={user.name}
     tag={user.tag}
@@ -66,7 +56,26 @@ import App from './App';
     followers={user.stats.followers}
     views={user.stats.views}
     likes={user.stats.likes}
-  />, */
-}
+  />,
+} */
 
-ReactDOM.render(<App />, document.querySelector('#root'));
+//__________________________________________
+
+/* import React from 'react';
+import ReactDOM from 'react-dom';
+import './index.css';
+import App from './App';
+import reportWebVitals from './reportWebVitals';
+
+ReactDOM.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+  document.getElementById('root')
+);
+
+// If you want to start measuring performance in your app, pass a function
+// to log results (for example: reportWebVitals(console.log))
+// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
+reportWebVitals();
+ */
